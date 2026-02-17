@@ -1,0 +1,3 @@
+config: debug
+[CC] g++ -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -g -std=c++20 -iquote . -c ecg_generator.cpp -o ecg_generator.o
+[LD] g++ -g ecg_generator.o -o ecg_generator
